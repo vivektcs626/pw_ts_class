@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "demo": "npx playwright test tests/Demo/mytest.spec.ts --headed --project=chromium" 
+    "demo": "npx playwright test tests/Demo/mytest.spec.ts --headed --project=chromium" ,
+    "make-apt": "npx playwright test tests/Demo/makeAppointment.spec.ts --headed --project=chromium" 
+
   },
   "keywords": [],
   "author": "",
