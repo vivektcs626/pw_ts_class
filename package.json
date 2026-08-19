@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "demo": "npx playwright test tests/Demo/mytest.spec.ts --headed --project=chromium" ,
-    "make-apt": "npx playwright test tests/Demo/makeAppointment.spec.ts --headed --project=chromium" 
+    "make-apt": "npx playwright test tests/Demo/makeAppointment.spec.ts --headed --project=chromium" ,
+    "ele-handling": "npx playwright test tests/functional/ele.handlingmakeAppointment.spec.ts --headed --project=chromium" 
 
   },
   "keywords": [],
